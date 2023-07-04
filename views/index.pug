@@ -1,0 +1,55 @@
+doctype html 
+html 
+    head 
+        title Harry Dance Academy 
+        style 
+            include ../static/style.css 
+    body 
+        //- Here #navbar is id of nav
+        nav#navbar.top 
+            ul 
+                div#logo 
+                    img(src="/static/img/logo.jpg")
+                    | HDA
+                li #[a(href="/") Home] 
+                li #[a(href="/") About] 
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class Info] 
+                li #[a(href="/") Contact us] 
+        section#introSection
+            div Welcome to Harry's Dance Academy 
+            div.small Eat Sleep Dance Repeat
+        section#missionsSection
+            p.para_mission Our Mission 
+            div.card 
+                p.dance Dance a Passion 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/box1.jpg")
+                    div.card-content 
+                        p Your Passion Dances with us.Come Join us 
+            div.card 
+                p.dance Dance is your Partner
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/Box2.jpg")
+                    div.card-content 
+                        p Let you and your partner lose yourself in world of  Dance  
+            div.card 
+                p.dance Dance an Exercise
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/box3.jpg")
+                    div.card-content 
+                        p No More painful Exercises Dance is your new Exercise
+        section#sponsorsSection
+            p.para_sponsors Our Sponsors 
+            div#sponsors 
+                img(src="/static/img/Logo1.jpg",Class="spImage")
+                img(src="/static/img/Logo2.jpg",Class="spImage")
+                img(src="/static/img/Logo3.jpg",Class="spImage")
+                img(src="/static/img/Logo4.jpg",Class="spImage")
+        footer#footer 
+            |Copyright 2023 Harry Dance Website
+        script 
+            include ../static/index.js

@@ -1,0 +1,130 @@
+extends base.pug 
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+         include ../static/style.css 
+
+block content 
+    section.introSection
+        div.introimg 
+            img(src="/static/img/introimg.jpg", alt="Image not found")
+        div.para 
+            p.introheading Welcome to Nityam Dance Academy
+            p.intropara1 Great Dancers are not great because of their
+            p.intropara2 Technique, they are great because of their Passion
+            p.intropara3 -Martha Graham
+            div.introlink
+                a(href="/contact")  Register now
+        //- div Nityam Dance Academy Welcome's you
+        //- div.small Eat Sleep Dance Repeat
+    hr
+    section#whychooseSection
+         p.para_whychooseheading Why choose Nityam Dance Academy
+         p.para_whychoosepara1 The first formal mention of dance is found in Bharata Muni's famous work Natya Shastra.As per Natya Shastra, there are 
+         p.para_whychoosepara2 two basic aspects of Indian classical dance. First is Lasya and second is Tandava.We at Nityam are keen to achieve it and deliever this two aspects to our disciples also Nityam dance Academy is today a well known name in the field of Classical Indian Dance and with our Qualified Teachers and Effective management we are aiming to make it a Nation and a International Brand 
+    hr
+    section#thanksSection
+        p.paraThanks Because of your Love and Support today we are 
+        div.thanks_card
+            div.thanks_box 
+                div.thanks-img 
+                    img(src="/static/img/views1.jpg")
+                div.thanks-content 
+                    p Program in 50+ Countries 
+        div.thanks_card
+            div.thanks_box 
+                div.thanks-img 
+                    img(src="/static/img/views2.jpg")
+                div.thanks-content
+                    p 3 Akademi Ratna Receipents 
+        div.thanks_card
+            div.thanks_box 
+                div.thanks-img  
+                    img(src="/static/img/views3.jpg")
+                div.thanks-content 
+                    p 26K+ Subscribers
+        div.thanks_card
+            div.thanks_box 
+                div.thanks-img 
+                    img(src="/static/img/views4.jpg")
+                div.thanks-content
+                    p 80K+ Social Media Followers
+    hr
+    section#userReview 
+        p.user_para Some of Reviews by our loved ones 
+        div.user_card 
+            div.user_box
+                div.user_review  
+                    p I joined the academy in my 10th standard summer vacation as an Hobby but now dance has become a Passion for me Thanks to Nandini Mam my Bharatanatyam Teacher
+                div.user 
+                    img(src="/static/img/user1.jpg")
+                    div.the_user 
+                        p.user_name Radhika Bose
+                        p.user_id @radhikaOffical 
+        div.user_card 
+            div.user_box
+                div.user_review  
+                    p The teachers here are very friendly and if they see a fire in you that you want to learn something then to teach you they can repeat a step 10 times also 
+                div.user 
+                    img(src="/static/img/user2.jpg")
+                    div.the_user 
+                        p.user_name Mahesh Mathur
+                        p.user_id @mathur_sahab
+        div.user_card 
+            div.user_box
+                div.user_review  
+                    p Along with Qualified Teachers the infrastructure is also well maintained over here from fire safety to cctvs,This Place makes you feel safe
+                div.user 
+                    img(src="/static/img/user1.jpg")
+                    div.the_user 
+                        p.user_name Rashmika Iyer
+                        p.user_id @mrs_iyer
+            
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    //- section#missionsSection
+    //-     p.para_mission Our Mission 
+    //-     div.card 
+    //-         p.dance Dance a Passion 
+    //-         div.card-box 
+    //-             div.card-img 
+    //-                 img(src="/static/img/box1.jpg")
+    //-             div.card-content 
+    //-                 p Your Passion Dances with us.Come Join us 
+    //-     div.card 
+    //-         p.dance Dance is your Partner
+    //-         div.card-box 
+    //-             div.card-img 
+    //-                 img(src="/static/img/Box2.jpg")
+    //-             div.card-content 
+    //-                 p Let you and your partner lose yourself in world of  Dance  
+    //-     div.card 
+    //-         p.dance Dance an Exercise
+    //-         div.card-box 
+    //-             div.card-img 
+    //-                 img(src="/static/img/box3.jpg")
+    //-             div.card-content 
+    //-                 p No More painful Exercises Dance is your new Exercise
+    //- section#sponsorsSection
+    //-     p.para_sponsors Our Sponsors 
+    //-     div#sponsors 
+    //-         img(src="/static/img/Logo1.jpg",Class="spImage")
+    //-         img(src="/static/img/Logo2.jpg",Class="spImage")
+    //-         img(src="/static/img/Logo3.jpg",Class="spImage")
+    //-         img(src="/static/img/Logo4.jpg",Class="spImage")
+
+        

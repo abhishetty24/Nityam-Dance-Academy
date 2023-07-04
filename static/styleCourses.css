@@ -1,0 +1,65 @@
+#navbar{
+    background-color:rgb(255,244,237);
+}
+.dance_card {
+    height:620px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255,244,237);
+}
+.dance_heading {
+    text-decoration:underline black;
+    font-style: italic;
+    text-align: center;
+    padding: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 12px;
+    color: black;
+}
+.dance-content {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 20px;
+}
+.dance-para {
+    padding: 51px 20px;
+    text-align: start;
+}
+.para1{
+    text-align: end;
+}
+.dance-content img{
+    height: 300px;
+    margin: 0 20px;
+    /* border:6px double rgb(189, 174, 174); */
+    border:6px solid black;
+    border-radius: 40px;
+}
+.dance-link {
+    text-align: center;
+    margin: 20px;
+}
+.dance-link a {
+    text-decoration: none;
+    /* color: rgb(240, 235, 212); */
+    color: black;
+    color: white;
+    /* border: 4px solid gold; */
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    /* background-color:  rgb(189, 174, 174); */
+}
+.dance-link a:hover {
+    color:blue;
+}
+.str{
+    color:crimson;
+}

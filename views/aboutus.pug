@@ -1,0 +1,43 @@
+extends base.pug 
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+         include ../static/style.css 
+         include ../static/styleAboutus.css 
+
+block content 
+    section#missionsSection
+        p.para_mission Our Mission 
+        div.card 
+            p.dance Dance a Passion 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/box1.jpg")
+                div.card-content 
+                    p Your Passion Dances with us.Come Join us 
+        div.card 
+            p.dance Dance is your Partner
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/Box2.jpg")
+                div.card-content 
+                    p Let you and your partner lose yourself in world of  Dance  
+        div.card 
+            p.dance Dance an Exercise
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/box3.jpg")
+                div.card-content 
+                    p No More painful Exercises Dance is your new Exercise
+    hr
+    section#PrincipalMessage 
+        div.messagedisplay 
+            p Principal's Message 
+        div.principalname
+            p By Dr.Vanita Reddy 
+        div.Principalpara 
+            p#Principalpara1 We are very fortunate that because of us our students are able to experience Rich Indian 
+            p Classical Dances. Dances have always acted as an joyful activity for the body and the soul.The Young Child learns about Stories of Ramayana, Shiv Purana through this dance performance and it acts an catalyst to enhance overall Personality of a child  Nityam Dance Academy has been established with the fulfill these two purpose to so that personality develops along with joyous activity and that too in a pure way.Our Vision has always been clear that very person in this Society deserves joy and Nityam is just acting as an Guide so that the Dancers Journey becomes Memorable 
+    hr

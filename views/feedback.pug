@@ -1,0 +1,34 @@
+extends base.pug 
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+         include ../static/style.css 
+         include ../static/styleFeedback.css 
+
+block content 
+    div.containerform
+        p.feedbackform Feedback Form
+        form(action="/feedback" method="post" class="myfeedbackForm") 
+            input(type="text",class="myfeedbackInput", name="feedname", placeholder="Your Name")
+            input(type="number",class="myfeedbackInput", name="batchyear", placeholder="Batch Year")
+            input(type="number",class="myfeedbackInput", name="feed_age", placeholder="Your age")
+            label(for="feed_dance")
+            select.myfeedbackInput(name="dance_profile_feed") 
+                option(value="bharatnatyam") Bharatnatyam
+                option(value="kuchipudi") Kuchipudi
+                option(value="kathakali") Kathakali
+                option(value="mohiniattam") Mohiniattam
+                option(value="odissi") Odissi
+                option(value="manipuri") Manipuri
+                option(value="kathak") Kathak
+                option(value="sattariya") Sattariya
+            input(type="number",step="any",class="myfeedbackInput", name="rating", placeholder="Rate Your Academy")
+            input(type="text",class="myfeedbackInput", name="fav_teacher", placeholder="Your favourite Teacher")
+            textarea(name="fav_teacher_reason",,class="myfeedbackInput" cols="30", rows="10", placeholder='Reason why She/He is favourite')
+            input(type="text",class="myfeedbackInput", name="dislike_teacher", placeholder="The Teacher you don't like")
+            textarea(name="dislike_teacher_reason",,class="myfeedbackInput" cols="30", rows="10", placeholder='Reason why She/He is not your favourite')
+            button(class="feed_btn")
+                |Submit
